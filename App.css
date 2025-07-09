@@ -1,0 +1,44 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    background-color: #f9f9f9;
+
+}
+.imageLogo img {
+    height: 100px;
+}
+
+.items ul {
+    display: flex;              
+    justify-content: flex-end; 
+    list-style: none;          
+    margin: 0;
+    padding: 0;
+  }
+  
+  .items li {
+    padding: 0 15px;           
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .resCard{
+    border: 1px solid gray; 
+    width: 150px;
+    padding: 5px;
+    margin: 5px;
+  }
+
+  .resCard img{
+    width: 100%;
+  }
+
+  .restaurants {
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+  }
+  
